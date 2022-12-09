@@ -44,6 +44,27 @@
         <li>
           <div class="userView">
             <div class="background"></div>
+                <!-- LOGIN SECTION -->
+    <section class="login-section">
+      <button class="login-btn">🔓 Log in with Web3</button>
+      <span class="instruction">
+        Ensure to have an Ethereum based wallet installed i.e MetaMask
+      </span>
+    </section>
+
+    <!-- DASHBOARD SECTION -->
+    <section class="dashboard-section">
+      <h2 class="wallet-status">Wallet Connected! 🤝</h2>
+      <h3 class="wallet-address-heading">
+        ETH Wallet Address:
+        <span class="wallet-address"></span>
+      </h3>
+      <h3 class="wallet-balance-heading">
+       ETH Balance:
+        <span class="wallet-balance"></span>
+      </h3>
+      <button class="logout-btn">🔐 Log out</button>
+    </section>
             <a href="{{site.github_profile}}" target="_blank"><img class="circle z-depth-2" src="{{site.baseurl}}/assets/res/user.png"></a>
             <span class="white-text name">{{site.user}}</span>
             <span class="white-text email">{{site.user_email}}</span>
