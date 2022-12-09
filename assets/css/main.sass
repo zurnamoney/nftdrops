@@ -33,30 +33,29 @@ header
     
   .userView
     section
-      .dashboard-section
-        flex-direction: column
-        max-width: 100%
-        overflow: hidden
-        gap: 10px
-        
-        a+span
-          line-height: normal
-          margin-top: 10px
-        
-        span
-          word-break: break-word
-          color: #ffce00
-          font-size: 17px
-          font-family: monospace,sans-serif
-          font-weight: bold
-          background: crimson
-          padding: 2px
-          text-align: center
-          border-radius: 10px
+      flex-direction: column
+      max-width: 100%
+      overflow: hidden
+      gap: 10px
+      
+      a+span
+        line-height: normal
+        margin-top: 10px
+      
+      span
+        word-break: break-word
+        color: #ffce00
+        font-size: 17px
+        font-family: monospace,sans-serif
+        font-weight: bold
+        background: crimson
+        padding: 2px
+        text-align: center
+        border-radius: 10px
       
   a:hover
     text-decoration: none
-
+  
   .background
     background: #ffce00
 
@@ -74,25 +73,7 @@ a
       z-index: 999
       line-height: 80px
 
-nav 
-  .page-title
-    font-size: 36px
-    font-weight: bold
-    line-height: 80px
 
-nav
-  &.top-nav
-    height: 80px
-
-// Footer
-footer.page-footer
-  margin-top: 10px
-
-  .row
-    margin-bottom: 0px
-
-  p
-    margin-top: 5px
 
 // Misc
 blockquote
@@ -108,15 +89,5 @@ main
 
 @media only screen and (max-width: 992px)
   header,
-  main,
-  footer
+  main
     padding-left: 0
-
-  nav 
-    .nav-wrapper
-      text-align: center
-
-@media only screen and (max-width: 600px)
-  nav
-    .page-title
-      font-size: 20px
