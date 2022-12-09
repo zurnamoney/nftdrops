@@ -91,10 +91,10 @@ const showUserDashboard = async () => {
   document.querySelector(".dashboard-section").style.display = "flex";
 
   // show the user's wallet address
-  // showUserWalletAddress();
+   showUserWalletAddress();
 
   // get the user's wallet balance
-  // getWalletBalance();
+   getWalletBalance();
 };
   
 // show the user's wallet address from the global userWalletAddress variable
